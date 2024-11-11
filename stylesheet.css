@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+/* End of font import */
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/* end of miscellaneous */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {
+    margin: 0;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+ 
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+
+  /* Typography / weight 400 & 700 */
+body{
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);;
+}
+
+/* Primary color */
+
+.orange_col{
+    color: hsl(25, 97%, 53%);
+}
+
+/* Neutral color */
+
+.white_col{
+    color: hsl(0, 0%, 100%);
+}
+
+.lightgrey_col{
+    color: hsl(217, 12%, 63%);
+}
+
+.darkblue_col{
+    color: hsl(213, 19%, 18%);
+}
+
+.verydarkblue_col{
+    color: hsl(216, 12%, 8%);
+}
+
+/* buttons */
+button.button{
+    border-radius: 50%;
+    background-color: hsl(213, 19%, 18%);
+    height: 55px;
+    width: 55px;
+    border: none;
+    color: hsl(217, 12%, 63%);
+    font-weight: 700;
+}
+
+div#rating-buttons{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 23px;
+}
+
+#submit-button{
+    border-radius: 30px;
+    height: 55px;
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-size: 18px;
+}
+
+/* star icon */
+#star-icon{
+    height: 55px;
+    width: 55px;
+    background-color:hsl(213, 19%, 18%);
+    border-radius: 50%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+#star-icon img{
+    height: 18px;
+    width: 18px;
+}
+
+/* container */
+
+#container{
+    height: 440px;
+    width: 425px;
+    border-radius: 30px;
+    margin: 160px auto;
+    padding: 35px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: linear-gradient(to bottom, hsl(213, 19%, 15%), hsl(213, 19%, 13%));
+}
+
+#header{
+    color: hsl(0, 0%, 100%);
+    font-size: 30px;
+    font-weight: 700;
+    margin-top: 12px;
+}
+
+/* div text */
+div#text{
+    color: hsl(217, 12%, 63%);
+    line-height: 24px;
+    margin-bottom: 12px;
+}
+
+
+/* thankyou.html */
+
