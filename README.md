@@ -1,7 +1,5 @@
 Live preview: https://zoooriiel.github.io/interactiveRatingComponent-FEM/
 
-Solution retrospective
-
 ## What are you most proud of, and what would you do differently next time?
 I’m most proud of how I managed to implement the rating system with localStorage to persist user choices between pages. The dynamic transition from the rating page to the thank-you page worked well, and the responsiveness across different devices was achieved.
 
