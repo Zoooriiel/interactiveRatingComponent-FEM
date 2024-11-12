@@ -20,7 +20,7 @@ ratingButtons.forEach(button => {
              submitButton.classList.add('selected');
 
              submitButton.addEventListener('click', () => {
-                 window.location.href = `thank-you.html`;
+                 window.location.href = `./thank-you.html`;
              })
             
               }
@@ -31,7 +31,7 @@ ratingButtons.forEach(button => {
       
      });
 
-     if (window.location.pathname === 'thank-you.html') {
+     if (window.location.pathname.endsWith('thank-you.html')) {
         const selectionText = document.getElementById('selection-text');
       
         // Retrieve the rating from localStorage
