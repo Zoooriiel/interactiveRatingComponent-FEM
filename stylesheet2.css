@@ -37,7 +37,8 @@
 body{
     font-size: 15px;
     font-family: 'Overpass', sans-serif;
-    background-color: hsl(216, 12%, 8%);;
+    background-color: hsl(216, 12%, 8%);
+    overflow: hidden;
 }
 
 /* Primary color */
