@@ -1,0 +1,125 @@
+
+/* thankyou.html */
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Outfit:wght@100..900&family=Overpass:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&family=Young+Serif&display=swap');
+
+/* End of font import */
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+/* end of miscellaneous */
+
+*, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+* {
+    margin: 0;
+  }
+
+  input, button, textarea, select {
+    font: inherit;
+  }
+  
+  p, h1, h2, h3, h4, h5, h6 {
+    overflow-wrap: break-word;
+  }
+ 
+  p {
+    text-wrap: pretty;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    text-wrap: balance;
+  }
+
+  /* Typography / weight 400 & 700 */
+body{
+    font-size: 15px;
+    font-family: 'Overpass', sans-serif;
+    background-color: hsl(216, 12%, 8%);;
+}
+
+/* Primary color */
+
+.orange_col{
+    color: hsl(25, 97%, 53%);
+}
+
+/* Neutral color */
+
+.white_col{
+    color: hsl(0, 0%, 100%);
+}
+
+.lightgrey_col{
+    color: hsl(217, 12%, 63%);
+}
+
+.darkblue_col{
+    color: hsl(213, 19%, 18%);
+}
+
+.verydarkblue_col{
+    color: hsl(216, 12%, 8%);
+}
+
+
+#container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* thank you image */
+#thank-you img{
+    margin: 10px 0 20px 0;
+}
+
+/* You selected out of 5 text */
+#selection-text{
+    border-radius: 26px;
+    padding: 8px 18px 6px 18px;
+    color: hsl(25, 97%, 60%);
+    background-color: hsl(213, 19%, 18%);
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Thank you! header */
+#header{
+    margin-bottom: 5px;
+}
+
+/* text below thank you header */
+#text{
+    text-align: center;
+}
+
+
+#container{
+  height: 430px;
+  width: 425px;
+  border-radius: 30px;
+  margin: 160px auto;
+  padding: 35px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background: linear-gradient(to bottom, hsl(213, 19%, 15%), hsl(213, 19%, 13%));
+}
+
+#header{
+  color: hsl(0, 0%, 100%);
+  font-size: 30px;
+  font-weight: 700;
+  margin-top: 12px;
+}
+
+/* div text */
+div#text{
+  color: hsl(217, 12%, 63%);
+  line-height: 24px;
+  margin-bottom: 12px;
+}
